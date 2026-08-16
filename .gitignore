@@ -3,7 +3,7 @@ node_modules/
 
 # Build output (client builds into server/public for single-process deploy)
 dist/
-server/public/
+# server/public is intentionally committed so the client ships to Vercel
 
 # Environment & secrets — NEVER commit these
 .env
